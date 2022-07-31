@@ -10,6 +10,6 @@ public class APIContext : DbContext
         
     }
 
-    public DbSet<Employees> Employees { get; set; }
+    public DbSet<Employee> Employees { get; set; }
     public DbSet<Department> Department { get; set; }
 }
